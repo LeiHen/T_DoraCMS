@@ -226,6 +226,7 @@ var adminFunc = {
             }
         }
         return power;
+        // return true;
     },
 
     renderToManagePage : function(req,res,url,pageKey){
