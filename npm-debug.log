@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Nodejs\\node.exe',
+1 verbose cli   'D:\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.8
+3 info using node@v6.8.1
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle doracms@1.1.1~prestart: doracms@1.1.1
+6 silly lifecycle doracms@1.1.1~prestart: no script for prestart, continuing
+7 info lifecycle doracms@1.1.1~start: doracms@1.1.1
+8 verbose lifecycle doracms@1.1.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle doracms@1.1.1~start: PATH: D:\Nodejs\node_modules\npm\bin\node-gyp-bin;E:\GitHub\T_DoraCMS\node_modules\.bin;C:\Users\Administrator\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\Administrator\bin;D:\other\graphicsmagick-1.3.25-q8;D:\Other\ImageMagick\7.0.1-Q16;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;D:\RearEnd\JAVA\jdk1.8.0_31\bin;D:\RearEnd\JAVA\jdk1.8.0_31\jre\bin;D:\Apache\apache-tomcat-8.5.4\bin;D:\watmserver\mysql5\bin;D:\Apache\apache-maven-3.2.5\bin;C:\Program Files\TortoiseGit\bin;D:\Other\Calibre2;D:\Apache\apache-maven-3.2.5\bin;C:\Program Files\MySQL\MySQL Utilities 1.6;D:\Yarn\bin;D:\Nodejs;D:\ForeEnd\Brackets\command;D:\MongoDB\Server\3.4\bin;D:\Nginx\nginx-1.11.6;C:\Users\Administrator\AppData\Local\atom\bin;D:\Yarn\bin;C:\Users\Administrator\AppData\Roaming\npm;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl
+10 verbose lifecycle doracms@1.1.1~start: CWD: E:\GitHub\T_DoraCMS
+11 silly lifecycle doracms@1.1.1~start: Args: [ '/d /s /c', 'node ./bin/www' ]
+12 silly lifecycle doracms@1.1.1~start: Returned: code: 1  signal: null
+13 info lifecycle doracms@1.1.1~start: Failed to exec start script
+14 verbose stack Error: doracms@1.1.1 start: `node ./bin/www`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (D:\Nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (D:\Nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:877:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid doracms@1.1.1
+16 verbose cwd E:\GitHub\T_DoraCMS
+17 error Windows_NT 10.0.10586
+18 error argv "D:\\Nodejs\\node.exe" "D:\\Nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v6.8.1
+20 error npm  v3.10.8
+21 error code ELIFECYCLE
+22 error doracms@1.1.1 start: `node ./bin/www`
+22 error Exit status 1
+23 error Failed at the doracms@1.1.1 start script 'node ./bin/www'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the doracms package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node ./bin/www
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs doracms
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls doracms
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

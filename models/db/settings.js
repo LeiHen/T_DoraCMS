@@ -15,10 +15,10 @@ module.exports = {
 //    数据库配置
     URL: 'mongodb://127.0.0.1:27017/doracms',
     DB: 'doracms',
-    HOST: '',
+    HOST: '127.0.0.1',
     PORT: 27017,
-    USERNAME: '',
-    PASSWORD: '',
+    USERNAME: 'doracms',
+    PASSWORD: '123456',
 
 
 //    站点基础信息配置
@@ -90,6 +90,3 @@ module.exports = {
     system_atLeast_one : '请选择至少一项后再执行删除操作！',
     system_batch_delete_not_allowed : '对不起，该模块不允许批量删除！'
 };
-
-
-

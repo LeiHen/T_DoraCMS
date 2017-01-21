@@ -17,7 +17,10 @@ var Ads = require("../models/Ads");
 
 //站点配置
 var settings = require("../models/db/settings");
-var db = mongoose.connect(settings.URL);
+
+// var db = mongoose.connect(settings.URL);
+var db = mongoose.connect('mongodb://'+settings.USERNAME+':'+settings.PASSWORD+'@'+settings.HOST+':'+settings.PORT+'/'+settings.DB+'';
+
 //mongoose.connect('mongodb://'+settings.USERNAME+':'+settings.PASSWORD+'@'+settings.HOST+':'+settings.PORT+'/'+settings.DB+'');
 
 //信息删除操作
